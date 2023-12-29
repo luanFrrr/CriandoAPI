@@ -1,9 +1,19 @@
+import "reflect-metadata";
 import express, { Request, Response } from "express";
 import { router } from "./routes";
+import { AppDataSource } from "./database";
 
 const PORT = 5000;
 
 const server = express();
+
+AppDataSource.initialize()
+  .then(() => {
+    console.log("Data Source inicializado!");
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 
 server.use(express.json());
 server.use(router);
