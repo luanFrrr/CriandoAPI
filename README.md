@@ -25,18 +25,11 @@ Este repositório contém o código de um projeto FullStack desenvolvido com Typ
 
 1. **Desafio 1**: Implementação de uma função para imprimir números divisíveis por N com resto 2 até 10000.
 
-   - [Código Desafio 1](caminho/do/código/desafio1.js)
-
 2. **Desafio 2**: Correção de erros de sintaxe e implementação de trechos de código fornecidos.
-
-   - [Código Desafio 2](caminho/do/código/desafio2.ts)
 
 3. **Desafio 3**: Criação de uma função middleware para verificar a autenticidade de tokens JWT.
 
-   - [Código Desafio 3](caminho/do/código/desafio3.ts)
-
 4. **Desafio 4**: Atualização de testes unitários para controllers e services.
-   - [Código Desafio 4](caminho/do/código/desafio4.spec.ts)
 
 ## Como Executar
 
